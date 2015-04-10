@@ -3,8 +3,8 @@ package br.com.fiap.estruturaDeControle.selecao;
 public class If {
 	public static void main(String[] args) {
 		
-		int a = 20;
-		int b = 20;
+		int a = 40;
+		int b = 60;
 		
 		if(a > b){
 			System.out.println("A > B");
