@@ -1,4 +1,4 @@
-package br.com.fiap.entidade;
+package br.com.fiap.orientacaoAObjetos;
 
 import br.com.fiap.enums.TipoDoImovel;
 
