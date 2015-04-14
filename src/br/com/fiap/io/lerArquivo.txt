@@ -1,0 +1,21 @@
+package io;
+
+import java.io.*;
+
+public class lerArquivo {
+
+    public static void main(String[] args) throws IOException {
+        try {
+            FileReader fr = new FileReader("C:\\Documents and Settings\\java\\Meus documentos\\NetBeansProjects\\IO\\src\\io\\arquivo2.txt");
+            BufferedReader br = new BufferedReader(fr);
+            String temp;
+
+            while ((temp = br.readLine()) != null) {
+                System.out.println(temp + "\n");
+            }
+
+        } catch (FileNotFoundException e) {
+            System.out.println("Erro:>>" + e.getMessage());
+        }
+    }
+}
