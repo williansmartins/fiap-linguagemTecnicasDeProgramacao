@@ -2,7 +2,7 @@ package br.com.fiap.execucao;
 
 import javax.swing.JOptionPane;
 
-import br.com.fiap.orientacaoAObjetos.Imovel;
+import br.com.fiap.orientacaoAObjetos.heranca.Imovel;
 
 public class Executadora {
 

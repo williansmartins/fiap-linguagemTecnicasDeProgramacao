@@ -1,4 +1,4 @@
-package br.com.fiap.orientacaoAObjetos;
+package br.com.fiap.orientacaoAObjetos.heranca;
 
 public class Foto {
 	public int id;
